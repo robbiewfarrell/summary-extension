@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Study Guide Summarizer</title>
+  <style>
+    body {
+      width: 350px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .logo {
+      width: 100px;
+      margin: 0 auto 16px;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .tagline {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    #summarizeBtn {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    #summarizeBtn:hover {
+      background-color: #0056b3;
+    }
+    #status, #summary {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <img src="images/logo.png" alt="Company Logo" class="logo">
+  <p class="tagline">Study faster with instant summaries</p>
+  <button id="summarizeBtn">Generate Summary</button>
+  <div id="status"></div>
+  <div id="summary"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
